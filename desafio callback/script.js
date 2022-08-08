@@ -16,4 +16,18 @@ function gastoConIva(){
 gastoConIva(); 
 
 console.log("__________________________")
+console.log(" ")
+
+console.log('Ejercicio de map() y callback:')
+
+setTimeout(function(){
+    console.log('Estos numeros son multiplo de 5.')
+}, 2000)
+function ejrecicios (numero, callback) {
+    let arreglo = [1,2,3,4,5]
+    let multiplo = arreglo.map(numero=>numero*5)
+    console.log(arreglo)
+    console.log(multiplo);
+}
+ejrecicios();
 
