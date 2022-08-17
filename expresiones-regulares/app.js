@@ -9,5 +9,4 @@ contraseña segura pero con las siguientes característica, que esta debe conten
 4) No puede contener espacios vacíos.
 
 */
-console.log('ando bien');
 RegExp = /^(?=\w+[a-z])(?=\W+[A-Z])\S{12-20}$/;
