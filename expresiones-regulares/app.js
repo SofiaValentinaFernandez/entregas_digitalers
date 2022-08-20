@@ -9,4 +9,4 @@ contraseña segura pero con las siguientes característica, que esta debe conten
 4) No puede contener espacios vacíos.
 
 */
-RegExp = /^(?=\w+[a-z])(?=\W+[A-Z])\S{12-20}$/;
+RegExp = /^(?=\w)(?=\w*[A-Z])(?=\w*[a-z])\S{12, }$/
